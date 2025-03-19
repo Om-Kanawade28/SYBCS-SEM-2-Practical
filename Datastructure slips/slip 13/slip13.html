@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Design</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            width: 60%;
+            border: 2px solid black;
+        }
+        .header, .footer {
+            font-size: 24px;
+            font-weight: bold;
+            padding: 10px;
+            text-align: center;
+        }
+        .header {
+            border-bottom: 4px solid gray;
+        }
+        .footer {
+            border-top: 4px solid gray;
+        }
+        .content {
+            display: flex;
+        }
+        .left-box {
+            width: 30%;
+            border-right: 4px solid gray;
+            padding: 10px;
+        }
+        .right-box {
+            width: 70%;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">This is a header.</div>
+        <div class="content">
+            <div class="left-box">Look in the box at the right for some information.</div>
+            <div class="right-box">Here is some information.</div>
+        </div>
+        <div class="footer">This is a footer.</div>
+    </div>
+
+</body>
+</html>
