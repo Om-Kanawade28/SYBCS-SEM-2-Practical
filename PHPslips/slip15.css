@@ -1,0 +1,56 @@
+body {
+    background-color: white;
+    padding: 20px;
+}
+
+.main-list {
+    font-size: 18px;
+    color: green;
+}
+
+.category {
+    font-weight: bold;
+    font-size: 20px;
+    color: darkgreen;
+}
+
+.sub-list .sub-list2 {
+    font-size: 16px;
+}
+
+.sub-list2{
+    list-style-type: square;
+}
+
+.fern {
+    color: brown;
+    font-style: italic;
+}
+
+.spore {
+    color: purple;
+    font-style: italic;
+}
+
+.lilly {
+    color: darkblue;
+    font-weight: bold;
+}
+
+.rose {
+    color: red;
+    font-weight: bold;
+}
+
+.numbered-list {
+    font-size: 14px;
+    color: black;
+}
+
+.red-rose {
+    color: blue;
+}
+
+.pink-rose {
+    color: deeppink;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>String Operations</title>
+</head>
+<body>
+    <h2>String Operations</h2>
+    <form method="get" action="slip5.php">
+        <label>Big String:</label>
+        <input type="text" name="big_string" required><br><br>
+
+        <label>Small String:</label>
+        <input type="text" name="small_string" required><br><br>
+
+        <label>Characters to Compare (n):</label>
+        <input type="number" name="n" min="1"><br><br>
+
+        <input type="radio" name="operation" value="starts_with" required> Check if Small String is at Start
+        <input type="radio" name="operation" value="position"> Find Position of Small String
+        <input type="radio" name="operation" value="compare"> Compare First N Characters (Case-Insensitive) <br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
